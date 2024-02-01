@@ -5,7 +5,7 @@ body {
 /* Navigation Bar */
 
 #home {
-  background-color:  #7600bc;
+  background-color:  #27374D;
   padding-bottom: 1cm;
   margin-left:-1cm;
   margin-right:-1cm;
@@ -39,7 +39,7 @@ body {
   float: left;
   padding-left: 2cm;
   /* Add the styles here */
-  color: rgb(218, 214, 214);
+  color: white;
   font-size: larger;
 }
 
@@ -64,7 +64,7 @@ h2 {
   font-size: 50px;
   text-align: center;
   float: left;
-  color: #7600bc;
+  color: #526D82;
   margin: 30px;
   margin-left: 60px;
   margin-top: 40px;
@@ -98,7 +98,7 @@ h2 {
 #about-me h1 {
   font-size: 65px;
   margin-top: 90px;
-  color: #7600bc;
+  color: #526D82;
 }
 
 #about-me p {
@@ -125,13 +125,17 @@ h2 {
 .skill {
   border: 1px solid gray;
   display: block;
-  border-radius: 6px;
+  border-radius: 25%;
   text-align: center;
   margin: 50px;
   padding: 10px;
   width: 2in;
   font-size: 20px;
-  box-shadow: 0 3px 10px gray;
+  box-shadow: 0 3px 10px #526D82;
+}
+.skill:hover{
+  transition: all 1s ease-out;
+  border-radius: 25%;
 }
 
 .skill img {
@@ -216,7 +220,7 @@ h2 {
 }
 
 .recommendation span {
-  color: #7600bc;
+  color: #27374D;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -227,7 +231,7 @@ h2 {
   width: 48px;
   height: 48px;
   border-radius: 100%;
-  background-color: #7600bc;
+  background-color: #97acb9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -237,11 +241,14 @@ h2 {
   cursor: pointer;
 }
 
+.iconbutton:hover{
+  background-color: #526D82;
+}
 /* Form Pop-up */
 
 .popup {
   width:400px;
-  background-color: #e8bcf0;
+  background-color: #9DB2BF;
   border-radius: 3mm;
   top: 50%;
   left:50%;
@@ -258,8 +265,8 @@ h2 {
 
 .popup button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #526D82;
+  color: #526D82;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -272,8 +279,8 @@ h2 {
 
 .popup button:hover {
   background-color: #fff;
-  border: 2px solid #7600bc;
-  color: #7600bc;
+  border: 2px solid #27374D;
+  color: #27374D;
   display: block;
   font-weight: bolder;
   text-align: center;
@@ -304,8 +311,8 @@ fieldset {
 
 button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #526D82;
+  color: #526D82;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -316,8 +323,8 @@ button {
 }
 
 button:hover {
-  background-color: #7600bc;
-  border: 1px solid #7600bc;
+  background-color: #27374D;
+  border: 1px solid #27374D;
   color: #fff;
   display: block;
   border-radius: 6px;
